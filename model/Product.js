@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
-const shortId = require('shortid')
+const shortId = require('shortid');
+const Student = require('./Student');
 const productSchema = new mongoose.Schema({
     productOwner:{
         type:String,

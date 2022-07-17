@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>header}}
+</head>
+<body>
+    <div class="container">
+        {{>navbar}}
+        {{!-- <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div> --}}
+        <div class="signUp">
+            <div class="sign1">
+                <div class="heading1">Glad To See You😊!</div>
+                <di class="heading2">Welcome To Full Stack Web Development Course.</di>
+                <img class="mern" src="/images/mern.png" alt="" srcset="">
+            </div>
+            <form action="/register" method="POST">
+                <div class="sign2">
+                <div class="inner">
+                    <h1>SignUp</h1>
+                    <div class="field"> 
+                    <input name="uName" class="input" type="text" placeholder="Name">
+                    <span class="icon"> <i class="fa-solid fa-user"></i> </span>
+                        <span class="name">Name</span>
+                    </div>
+                     <div class="field"> 
+                    <input name="uEmail" class="input" type="text" placeholder="Email">
+                    <span class="icon"> <i class="fa-solid fa-envelope"></i> </span>
+                        <span class="name">Email</span>
+                    </div> <div class="field"> 
+                    <input name="uPassword" class="input" type="password" placeholder="Passowrd">
+                    <span class="icon"> <i class="fa-solid fa-lock"></i> </span>
+                        <span class="name">Password</span>
+                        <span class="hide"> <i class="fa-solid fa-eye-slash"></i> </span>
+                    </div> <div class="field"> 
+                    <input name="uPhone" class="input" type="text" placeholder="Phone No.">
+                    <span class="icon"> <i class="fa-solid fa-id-badge"></i> </span>
+                        <span class="name">Phone No.</span>
+                    </div>
+                    <div class="field"> 
+                        <input name="uAddress" class="input" type="text" placeholder="Address">
+                        <span class="icon"> <i class="fa-solid fa-map"></i> </span>
+                        <span class="name">Address</span>
+                    </div>
+                    <div class=""> <input name="uCheck" type="checkbox" name="" id=""> By sign up i agree with terms and conditons </div>
+                    <button type="submit" class="signUp-btn field">Sign Up</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
